@@ -47,7 +47,7 @@
       social_title: "Ακολούθησε μας",
       social_subtitle: "Νέα, συνεργασίες και περιεχόμενο.",
       footer_text:
-        "TOUMBA LIBRE COMPANY Ε.Ε. • Έδρα: Αγίας Φωτεινής 5, Νέα Πολιτεία, Κορδελιού-Ευόσμου, Θεσσαλονίκης, Τ.Κ. 56224 • ΑΦΜ 803007611 • Γ.Ε.ΜΗ. 187274604000 • Απολαύστε υπεύθυνα 18+",
+        "TOUMBA LIBRE COMPANY Ε.Ε. • ΑΦΜ 803007611 • Γ.Ε.ΜΗ. 187274604000 • Απολαύστε υπεύθυνα 18+",
       email_subject_prefix: "Νέα παραγγελία από",
       email_company: "Επωνυμία",
       email_afm: "ΑΦΜ",
@@ -104,7 +104,7 @@
       social_title: "Follow us",
       social_subtitle: "News, collaborations and content.",
       footer_text:
-        "TOUMBA LIBRE COMPANY E.E. • Registered office: Agias Fotinis 5, Nea Politeia, Kordelio-Evosmos, Thessaloniki, ZIP 56224 • VAT 803007611 • GEMI 187274604000 • Drink responsibly 18+",
+        "TOUMBA LIBRE COMPANY E.E. • VAT 803007611 • GEMI 187274604000 • Drink responsibly 18+",
       email_subject_prefix: "New order from",
       email_company: "Company",
       email_afm: "VAT Number",
