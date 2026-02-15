@@ -495,6 +495,10 @@ input {
   background-image: none;
 }
 
+.social-link-facebook {
+  background-image: none;
+}
+
 .social-link:hover {
   transform: translateY(-3px);
   border-color: var(--black);
