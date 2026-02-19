@@ -127,7 +127,6 @@ main {
   color: var(--white);
 }
 
-/* HERO */
 .hero {
   position: relative;
   min-height: 92vh;
