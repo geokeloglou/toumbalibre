@@ -140,6 +140,19 @@ function hideModal() {
   bodyElement.classList.remove("modal-open");
 }
 
+function updateConsent(status) {
+  const value = status === "granted" ? "granted" : "denied";
+  if (typeof window.gtag === "function") {
+    window.gtag("consent", "update", {
+      ad_storage: value,
+      ad_user_data: value,
+      ad_personalization: value,
+      analytics_storage: value,
+    });
+  }
+  localStorage.setItem("toumba-consent", value);
+}
+
 function startBottleIntro() {
   if (!bottle) {
     onScroll();
@@ -161,6 +174,7 @@ function startBottleIntro() {
 
 function enterSite() {
   localStorage.setItem("toumba-age-ok", "yes");
+  updateConsent("granted");
   hideModal();
   startBottleIntro();
 }
