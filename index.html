@@ -18,13 +18,14 @@
   <meta property="og:type" content="website">
   <meta id="metaOgUrl" property="og:url" content="https://toumbalibre.com/">
   <meta property="og:site_name" content="Toumba Libre">
-  <meta property="og:image" content="https://toumbalibre.com/assets/toumba-libre-product.png">
+  <meta property="og:image" content="https://toumbalibre.com/assets/toumba-libre-product-bg.png">
   <meta property="og:image:alt" content="Toumba Libre bottle product image">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Toumba Libre">
   <meta id="metaTwitterDescription" name="twitter:description" content="Cocktail Mix Wine + Cola • 7.2% vol • 275ml">
-  <meta name="twitter:image" content="https://toumbalibre.com/assets/toumba-libre-product.png">
+  <meta name="twitter:image" content="https://toumbalibre.com/assets/toumba-libre-product-bg.png">
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="preload" as="image" href="assets/toumba-libre-product-bg-1024.webp" type="image/webp">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +48,7 @@
 
   <header class="site-header" id="top">
     <a class="logo-wrap" href="#top" aria-label="Toumba Libre" id="logoLink">
-      <img src="assets/company-logo.jpeg" class="logo" alt="Toumba Libre">
+      <img src="assets/company-logo.jpeg" class="logo" alt="Toumba Libre" width="1647" height="957" decoding="async">
     </a>
     <nav class="site-nav" aria-label="Primary">
       <a href="#top" data-i18n="nav_product">Product</a>
@@ -73,7 +74,24 @@
           </div>
         </div>
         <div class="hero-visual" aria-hidden="true">
-          <img src="assets/toumba-libre-product-bg.png" class="bottle" alt="">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="assets/toumba-libre-product-bg-512.webp 512w, assets/toumba-libre-product-bg-1024.webp 1024w"
+              sizes="(max-width: 600px) 86vw, 420px">
+            <source
+              type="image/png"
+              srcset="assets/toumba-libre-product-bg-512.png 512w, assets/toumba-libre-product-bg-1024.png 1024w"
+              sizes="(max-width: 600px) 86vw, 420px">
+            <img
+              src="assets/toumba-libre-product-bg-1024.png"
+              class="bottle"
+              alt="Toumba Libre bottle"
+              width="1024"
+              height="1536"
+              fetchpriority="high"
+              decoding="async">
+          </picture>
         </div>
       </div>
       <div class="hero-shapes" aria-hidden="true">

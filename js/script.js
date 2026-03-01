@@ -74,7 +74,7 @@ function applyLanguage(lang) {
   if (metaTwitterDescription) {
     metaTwitterDescription.setAttribute("content", translations.meta_twitter_description);
   }
-  if (canonicalLink) canonicalLink.setAttribute("href", `${canonicalBaseUrl}?lang=${currentLanguage}`);
+  if (canonicalLink) canonicalLink.setAttribute("href", canonicalBaseUrl);
   if (hrefLangEl) hrefLangEl.setAttribute("href", `${canonicalBaseUrl}?lang=el`);
   if (hrefLangEn) hrefLangEn.setAttribute("href", `${canonicalBaseUrl}?lang=en`);
   if (hrefLangDefault) hrefLangDefault.setAttribute("href", canonicalBaseUrl);
