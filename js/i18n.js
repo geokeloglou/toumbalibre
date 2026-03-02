@@ -16,7 +16,7 @@
       nav_social: "Social",
       hero_kicker: "COCKTAIL MIX",
       hero_title: "WINE + COLA",
-      hero_order: "Παρήγγειλε τώρα",
+      hero_order: "Παράγγειλε τώρα",
       hero_follow: "Ακολούθησε",
       about_kicker: "ΤΙ ΕΙΝΑΙ",
       about_title: "Λευκός οίνος + Cola",
